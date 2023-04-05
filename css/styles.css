@@ -3,6 +3,10 @@ body {
   margin: 0;
 }
 
+h1 {
+  color:red;
+}
+
 header {
   padding: 15px;
   display: flex;
@@ -60,16 +64,17 @@ nav ul li a:hover {
   letter-spacing: 5px;
 }
 
-.wrapper {
+h1, h2 {
     margin: 0 auto;
     margin-top: 3rem;
     margin-bottom: 2rem;
     width: 960px;
     text-align: center;
     text-shadow: 3px 3px 5px rgb(0, 0, 0);
-    color: rgb(122, 122, 122);
+    color: rgb(125, 0, 0);
     font-family: Geizer; src: url('Geizer.otf');
     letter-spacing: 5px;
+    font-size: 80px;
 }
 
 .aligned {
